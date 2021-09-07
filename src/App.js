@@ -57,7 +57,7 @@ function App() {
       <h2>QUOTES OF THE DAY</h2>
       <h3>{text}</h3>
       <h3>{author}</h3>
-      <h1>Todo List Project</h1>
+      <h1>Todo List Project Final</h1>
       <form onSubmit={addTodo}>
         <input type="text" name="todo" />
         <input type="submit" />
@@ -72,6 +72,7 @@ function App() {
               <button type="submit">Submit Edit</button>
             </form>
           )}
+
           <button onClick={() => deleteTodo(todo.id)}>delete</button>
           <button onClick={() => setInputEditing(todo.id)}>edit</button>
         </div>
